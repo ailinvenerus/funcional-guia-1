@@ -16,3 +16,14 @@
 --200 cm = 2m -> 200cm*3kg
 --500 cm = 5m -> 300cm*3kg + 200cm*2kg = 900kg+400kg = 1300kg
 
+
+pesoPino altura = metrosACentimetros (primerosTresMetros altura + metrosDeMas altura)
+primerosTresMetros altura = (min altura 3) * 3
+metrosDeMas altura = (altura - (min altura 3)) * 2
+metrosACentimetros = (* 100)
+
+esPesoUtil peso = mayorACuatrocientos peso && menorAMil peso
+mayorACuatrocientos = (> 400)
+menorAMil = (< 1000)
+
+sirvePino altura = esPesoUtil (pesoPino altura)
