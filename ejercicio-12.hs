@@ -5,24 +5,7 @@
 --También algo de recursividad van a tener que usar. 
 
 
---1 + 3 + 5 + 7...
-
---1 ^2 = 1
---4 ^2 = 16
---9 ^2 = 81
---16 ^2 = 256
--- ...
-
---esCuadradoPerfecto 1 = 1 --funcion base
---esCuadradoPerfecto numero = 1 + (1+2)
-
---esCuadradoPerfecto 1 = 1
---esCuadradoPerfecto numero = numero + ((esCuadradoPerfecto (numero - 1) + 2) 
-
-cuadradoPerfecto 1 = 1
-cuadradoPerfecto numero = numero == (cuadradoPerfecto (numero - 2))
-
-
+--PRACTICA PREVIA CON RECURSIVIDAD
 
 --factorial:
 -- 0! = 1
